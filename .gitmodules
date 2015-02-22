@@ -1,0 +1,6 @@
+[submodule "contract"]
+	path = contract
+	url = https://WebDucer@bitbucket.org/WebDucer/wdzeitapp-contract.git
+[submodule "utilities"]
+	path = utilities
+	url = https://WebDucer@bitbucket.org/WebDucer/android-utilities.git

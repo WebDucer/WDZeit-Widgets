@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2015 Eugen [WebDucer] Richter
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+   <string name="statistic_deleted">Удалён</string>
+   <string name="statistic_name_description">Название показанной статистики</string>
+   <string name="statistic_value_description">Величина показанной статистики</string>
+   <string name="apply_button">Перенять</string>
+   <string name="cancel_button">Отменить</string>
+   <string name="statistic_widget_config_activity_label">Установки виджета статистики</string>
+   <string name="statistic_widget_config_description">Выберите доступную статистику для показа на главном экране.</string>
+   <string name="statistic_widget_statistic_selector_label">Доступные статистики:</string>
+   <string name="statistic_widget_app_not_installed">Приложение "WebDucer Учёт Времени" не установленна</string>
+   <string name="statistic_widget_label">WDZeitApp cтатистики</string>
+   <string name="statistic_widget_no_statistic_defined">Статистики не установленны. Пожалуста занесите статистики сначала в приложении.</string>
+   <string name="statistic_widget_permission_no_permission">Похоже виджет был устоновлен перед приложением или приложение "WebDucer Учёт Времени" не установлен.
+   Установите сначало приложение. Усли оно уже установленно, тогда переустановите виджет сизнова.</string>
+</resources>

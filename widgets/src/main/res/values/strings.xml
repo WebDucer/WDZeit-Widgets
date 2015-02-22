@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2015 Eugen [WebDucer] Richter
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+
+   <!-- Global -->
+   <string name="text_placeholder" translatable="false">---</string>
+   <string name="apply_button">Apply</string>
+   <string name="cancel_button">Cancel</string>
+
+   <!-- Statistic Widget -->
+   <string name="statistic_deleted">Deleted</string>
+   <string name="statistic_name_description">Name of the shown statistic</string>
+   <string name="statistic_value_description">Value of the shown statistic</string>
+   <string name="statistic_widget_config_activity_label">Configure Statistic Widget</string>
+   <string name="statistic_widget_config_description">Select the available statistic to show on the home screen.</string>
+   <string name="statistic_widget_statistic_selector_label">Available Statistics:</string>
+    <string name="statistic_widget_permission_no_permission">It seems, you installed this widget before the app or the app "WebDucer Time Tracking" is not installed.
+		Please install the app at first. If already installed, remove and install this widget again.</string>
+   <string name="statistic_widget_app_not_installed">The App "WebDucer Time Tracking" is not installed on your Device. Please install the app before you use/install this widget!</string>
+   <string name="statistic_widget_no_statistic_defined">No statistics defined. Please first define statistics in the App.</string>
+   <string name="statistic_widget_label">WDZeitApp Statistic</string>
+
+</resources>
