@@ -44,6 +44,7 @@
          <intent-filter>
             <action android:name="de.webducer.android.zeiterfassung.ACTION_RECORD_CHANGED" />
             <action android:name="de.webducer.android.zeiterfassung.ACTION_MASTER_DATA_CHANGED" />
+            <action android:name="de.webducer.android.zeiterfassung.ACTION_REPORT_DATA_CHANGED" />
          </intent-filter>
 
          <meta-data
