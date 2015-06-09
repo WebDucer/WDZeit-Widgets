@@ -26,8 +26,10 @@ package de.webducer.android.oss.zeiterfassung.widgets.provider;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
+import android.content.ComponentName;
 import android.content.ContentUris;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
@@ -47,6 +49,30 @@ import de.webducer.android.zeiterfassung.contract.enums.DurationFormat;
  */
 public class StatisticWidgetProvider extends AppWidgetProvider {
    private final static String _TAG = TextHelper.getTag(Constants.TAG_PREFIX, StatisticWidgetProvider.class.getSimpleName());
+
+   @Override
+   public void onReceive(Context context, Intent intent) {
+      LogHelper.d(_TAG, "Entry: onReceive(context: %s, intent: %s)", context, intent);
+
+      switch (intent.getAction()){
+         case TimeTrackingContract.Actions.ACTION_RECORD_DATA_CHANGED:
+         case TimeTrackingContract.Actions.ACTION_MASTER_DATA_CHANGED:
+         case TimeTrackingContract.Actions.ACTION_REPORT_DATA_CHANGED:
+            AppWidgetManager appWidgetManager = AppWidgetManager
+               .getInstance(context.getApplicationContext());
+            ComponentName widget = new ComponentName(context,
+               StatisticWidgetProvider.class);
+            int[] allWidgetIds = appWidgetManager.getAppWidgetIds(widget);
+            onUpdate(context, appWidgetManager, allWidgetIds);
+            break;
+
+         default:
+            super.onReceive(context, intent);
+            break;
+      }
+
+      LogHelper.d(_TAG, "Exit: onReceive");
+   }
 
    @Override
    public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
